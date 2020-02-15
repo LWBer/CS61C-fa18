@@ -21,17 +21,8 @@ vector_t bad_vector_new(int a) {
 
 int main()
 {
-    vector_t p=bad_vector_new(60);
-	printf("&p:%d\n",&p);
-	printf("p.size:%d\n",p.size);
-	printf("p.data:%d\n",p.data);
-    vector_t p1=bad_vector_new(7);
-	printf("p.size:%d\n",p.size);
-	printf("p.data:%d\n",p.data);
-    printf("&p1:%d\n",&p1);
-    printf("p1.size:%d\n",p1.size);
-    printf("p1.data:%d\n",p1.data);
-
+    unsigned char a[5]="123";
+    printf("%d",sizeof(a));
 }
 
 
